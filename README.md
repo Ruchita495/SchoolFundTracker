@@ -30,6 +30,3 @@ The database and sample data are created automatically on first run. database/sc
 5. Program.cs               - wiring, JWT login, seeding
 6. React: api.ts -> Login -> App -> components
 7. Tests
-
-## Git workflow (as in your resume)
-git init; git checkout -b feature/payments; git add .; git commit -m "Add payment recording"; open a Pull Request on GitHub.
