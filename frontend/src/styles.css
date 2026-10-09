@@ -1,0 +1,14 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6f8; color: #1d2733; }
+main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+.card { background: #fff; border-radius: 8px; padding: 1rem; margin: 1rem 0; box-shadow: 0 1px 3px #0002; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: .5rem; border-bottom: 1px solid #e3e8ee; }
+label { display: block; margin: .5rem 0; }
+input, select, button { padding: .5rem; font-size: 1rem; }
+button { cursor: pointer; background: #2563eb; color: #fff; border: 0; border-radius: 6px; }
+.badge { padding: 2px 8px; border-radius: 12px; font-size: .85rem; }
+.Paid { background: #d1fae5; } .Partial { background: #fef3c7; } .Unpaid { background: #fee2e2; }
+.error { color: #b91c1c; } .ok { color: #047857; }
+progress { width: 100%; }
